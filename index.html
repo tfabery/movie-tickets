@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+        <form class="form" action="index.html" method="post">
+          <div class="name">
+            <h3>Movie name:</h3>
+            <select class="form-control" id="name">
+              <option>Keanu</option>
+              <option>Warcraft</option>
+              <option>Blackway</option>
+              <option>Hockney</option>
+            </select>
+          </div>
+
+          <div class="time">
+            <h3>Movie time:</h3>
+            <select class="form-control" id="time">
+              <option>AM</option>
+              <option>Noon</option>
+              <option>PM</option>
+              <option>Midnight</option>
+            </select>
+          </div>
+
+          <div class="age">
+            <h3>Type of Ticket:</h3>
+            <select class="form-control" id="age">
+              <option>Child</option>
+              <option>Adult</option>
+              <option>Senior</option>
+              <option>Military</option>
+            </select>
+          </div>
+
+          <button class="btn" type="submit">Get me a ticket</button>
+        </form>
+
+
+      <div id="price-result">
+          <h4 id="result"></h4>
+      </div>
+    </div>
+  </body>
+</html>
